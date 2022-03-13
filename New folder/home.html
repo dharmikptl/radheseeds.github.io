@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home|Radhe Seeds</title>
+    <link rel="stylesheet" href="./home.css">
+    <script src="./home.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="header">
+        <img src="./Radhe Logo.png" alt="logo" width="40%">
+    </div>
+    <div class="login">
+        <a onclick="open_login_Nav()"><img src="./login-removebg-preview.png" alt="" width="30px" style="float: right;@media screen and (min-width: 1100px){width: 2.5%;}"></a>
+    </div>
+    <div class="nav">
+        <a class="nav_item" href="">Home</a>
+        <a class="nav_item" onclick="open_seed_Nav()">Seeds</a>
+        <a class="nav_item" onclick="open_pesticides_Nav()">Pesticides</a>
+        <!-- <a class="nav_item" href="">Pesticides</a> -->
+        <a class="nav_item" href="">Contact Us</a>
+        <a class="nav_item" href="">About Us</a>
+    </div>
+    <div class="main_part">
+
+    </div>
+    <!-- //menu bar of Seeds -->
+    <div id="seed_nav" class="sidenav">
+        <a style="color: red;" href="javascript:void(0)" class="closebtn" onclick="close_seed_Nav()">&times;</a>
+        <a href="#">Wheat</a>
+        <a href="#">Maize</a>
+        <a href="#">Rice</a>
+        <a href="#">Mung</a>
+        <a href="#">Tuvar</a>
+    </div>
+    <!-- //menu bar of pesticides -->
+    <div id="pesticides_nav" class="sidenav">
+        <a style="color: red;" href="javascript:void(0)" class="closebtn" onclick="close_pesticides_Nav()">&times;</a>
+        <a href="#">Wheat</a>
+        <a href="#">Maize</a>
+        <a href="#">Rice</a>
+        <a href="#">Mung</a>
+        <a href="#">Tuvar</a>
+    </div>
+    <!-- //login bar -->
+    <div id="login_nav" class="sidenav">
+        <a style="color: red;" href="javascript:void(0)" class="closebtn" onclick="close_login_Nav()">&times;</a>
+
+    </div>
+</body>
+
+</html>
